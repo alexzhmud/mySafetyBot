@@ -1,5 +1,5 @@
-{
-    "questionAreaDescription" : "Чем я могу вам помочь? ('lang' -  смена языка, 'main' - главное меню)",
+﻿{
+    "questionAreaDescription" : "Чем я могу вам помочь? ('lang' -  смена языка, 'main' - главное меню, 'exit' - окончить общение)",
     "lost" : "Потерял",
     "found" : "Нашел",
     "services" : "Сервисы и Продукты",
@@ -15,13 +15,14 @@
     "ok_to_continue" : "Продолжим?",
 
 
-    "itemType" : "Что вы нашли",
+    "itemType" : "Что вы нашли?",
     "itemType_device" : "Устройство",
     "itemType_documents" : "Документ",
     "itemType_keys" : "Ключи",
     "itemType_animal" : "Питомца",
     "itemType_bag" : "Сумку",
     "itemType_other" : "Другое",
+
 
     "otherItemType" : "Укажите, что вы нашли",
 
@@ -61,7 +62,7 @@
     "found_summary" : "Полнная заявка:",
     "found_end_dialog" : "Ваша заяака отправлена. Мы свяжемся с вами в ближайшее время.",
 
-    "itemTypeLost" : "Что вы нашли",
+    "itemTypeLost" : "Что вы потеряли?",
     "itemTypeLost_device" : "Устройство",
     "itemTypeLost_documents" : "Документ",
     "itemTypeLost_keys" : "Ключи",
@@ -69,7 +70,8 @@
     "itemTypeLost_bag" : "Сумку",
     "itemTypeLost_other" : "Другое",
 
-    "otherItemTypeLost" : "Укажите, что вы нашли",
+
+    "otherItemTypeLost" : "Укажите, что вы потеряли",
 
     "itemDescriptionLost" : "Опишите потерю. Пример: телефон Samsung J7; серый кот; ноутбук HP",
     "nameLost" : "Как вас зовут?",
