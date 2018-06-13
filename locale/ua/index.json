@@ -1,5 +1,5 @@
-﻿{
-   "questionAreaDescription" : "Чим я можу допомогти? ('lang' -  зміна мови, 'main' - головне меню, 'exit' - завершити спілкування)",
+ {
+   "questionAreaDescription" : "Чим я можу допомогти? ('lang' -  зміна мови, 'main' - головне меню)",
     "lost" : "Я загубив предмет",
     "found" : "Я знайшов предмет",
     "services" : "Сервіси та продукти",
@@ -67,7 +67,7 @@
     "foundSubmitError" : "Помилка під час відправки запиту. Заявка не відправлена! Спробуйте іще раз.",
     "foundTryAgain" : "Почати діалог знахідки іще раз?",
 
-    "itemTypeLost" : "Що ви загубили?",
+    "itemTypeLost" : "Що ви знайшли?",
     "itemTypeLost_device" : "Прилад",
     "itemTypeLost_documents" : "Документ",
     "itemTypeLost_keys" : "Ключі",
