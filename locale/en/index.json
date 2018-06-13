@@ -1,0 +1,138 @@
+{
+    "questionAreaDescription" : "How I can help you? ('lang' -  change language, 'main' - main menu)",
+    "lost" : "Lost",
+    "found" : "Found",
+    "services" : "Our Services",
+    "faq" : "FAQ",
+    "about" : "About",
+    "exit" : "Exit",
+    "greetings" : "Hello! I am MySefety Bot! Type lang to change language anytime",
+    "continue" : "Let's continue. Ok?",
+    "Yes" : "Yes",
+    "No" : "No",
+    
+    "lost_nextsteps" : "Choose what has happend:",
+
+    "help_message" : "Type: 'mian' to start from main menu; 'lang' to choose other language; 'yes' to continue",
+    "ok_to_continue" : "Type 'Ok' to continue",
+
+
+    "itemType" : "What have you found?",
+    "itemType_device" : "Device",
+    "itemType_documents" : "Document",
+    "itemType_keys" : "Keys",
+    "itemType_animal" : "Pet",
+    "itemType_bag" : "Bag",
+    "itemType_other" : "Other",
+
+    "otherItemType" : "Could you specify what other thing have you found?",
+
+    "itemDescription" : "Describe it. Exmapple: Samsung phone J7; gray cat; HP notebook",
+    "name" : "What is your name?",
+    "id" : "What is MySafety ID number on the sticker or keychain? It has format YXXXXXX (Y - letter, X - digit)",
+    "foundTime" : "When have you found it?",
+    
+    "documentName" : "Whom the document belongs to? Could you spesify the full name?",
+    "documentNumber" : "What is the document number?",
+    
+    "contactMethod" : "How we can reach you",
+    "contactMethodAlt" : "How additionaly we can reach you",
+    "contact_phone" : "Phone",
+    "contact_email" : "E-mail",
+    "contact_mail" : "Paper mail",
+    "contact_none" : "None",
+    
+    "phone" : "What is your phone number? Please use full notation format: +380XXYYYZZZZ",
+    "email" : "What is your e-mail address?",
+    "mail" : "What is your postal address? Example: Anri Barbusa Str, 5-B, office 8, 03150, Kiev, Ukraine",
+
+    "additioanInfo" : "What additional information whoud you like to share us?",
+
+    "rep_itemType" : "Found item:",
+    "rep_itemDescription" : "Description:",
+    "rep_name" : "Name:",
+    "rep_id" : "Sticker ID:",
+    "rep_foundTime" : "Found time:",
+    "rep_documentName" : "Name on the document:",
+    "rep_documentNumber" : "Document number:",
+    "rep_contact" : "Contact method:",
+    "rep_altcontact" : "Alternative contact method:",
+    "rep_additionalInfo" : "Additional information: ", 
+    
+    "confirm_found_email" : "Would you like to submit this form?",
+    "found_summary" : "Here what we have got:",
+    "found_end_dialog" : "You request has been submitted",
+
+    "itemTypeLost" : "What have you lost?",
+    "itemTypeLost_device" : "Phone or Device",
+    "itemTypeLost_documents" : "Document",
+    "itemTypeLost_keys" : "Keys",
+    "itemTypeLost_animal" : "Pet",
+    "itemTypeLost_bag" : "Bag",
+    "itemTypeLost_other" : "Other",
+
+    "otherItemTypeLost" : "Could you specify what other thing have you found?",
+
+    "itemDescriptionLost" : "Describe it. Exmapple: Samsung phone J7; gray cat; HP notebook",
+    "nameLost" : "What is your name?",
+    "cityLost" : "In what city have you lost it?",
+    "idLost" : "What is MySafety ID number on the sticker or keychain? It has format YXXXXXX (Y - letter, X - digit)",
+    "foundTimeLost" : "When have you lost it?",
+    "blockSIM" : "Would you to block SImcard for your device or phone (if any)?",
+    "policeCaseConfirm" : "Have you filed the case in police?",
+    "policeCaseRequired" : "You must file the case in police.",
+    "phoneLost" : "What is your contact phone number?",
+    "phoneLostAlt" : "What is you alternative phone number?",
+    "additioanInfoLost" : "What additional information whoud you like to share us?",
+
+    "replost_itemType" : "Found item:",
+    "replost_itemDescription" : "Description:",
+    "replost_name" : "Name:",
+    "replost_id" : "Sticker ID:",
+    "replost_city" : "City:",
+    "replost_lostTime" : "Lost time:",
+    "replost_blocksim" : "If to block SIM:",
+    "replost_police" : "If poluce case filed:",
+    "replost_phone" : "Contact phone:",
+    "replost_phonealt" : "Alternative contact phone:",
+    "replost_additionalInfo" : "Additional information:",
+
+    "lost_summary" : "Here what we have got:",
+    "confirmLostData" : "Submit request?",
+    "submittingRequest" : "Submitting request...",
+    "lostSubmitConfirm" : "Request submitted",
+    "lostSubmitError" : "Error during request submission",
+    "lostTryAgain" : "Start lost dialog again?",
+
+    "QNAInitialQuestion" : "What are you inrested in?",
+    "QNAMoreQuestions" : "One more question?",
+
+    "ProductPetTitle" : "Pets security",
+    "ProductPetSubTitle" : "349 UAH / a yesr",
+    "ProductPetText" : "Return your pet",
+    
+    "ProductBagTitle" : "Luggage security",
+    "ProductBagSubTitle" : "299 UAH / a year",
+    "ProductBagText" : "Gives ability to return you luggage quickly",
+
+    "ProductPhoneTitle" : "Smartphone security",
+    "ProductPhoneSubTitle" : "from 3.50 UAH / a week",
+    "ProductPhoneText" : "Gives ability to quickly block your phone and enshure fast return", 
+
+    "ProductKeysTitle" : "Keys security",
+    "ProductKeysSubTitle" : "199 UAH/ a year",
+    "ProductKeysText" : "Give ability to return lost keys",
+
+    "ProductKidsTitle" : "Kids security",
+    "ProductKidsSubTitle" : "New!",
+    "ProductKidsText" : "Gives ability to fing lost kids",
+
+    "ProductDocumentsTitle" : "Documents security",
+    "ProductDocumentsSubTitle" : "249 UAH / a yesr",
+    "ProductDocumentsText" : "Gives ability to return lost documents",
+
+    "ProductMoreinfo" : "Learn more",
+    "ProductBackMain" : "Back to the main menu?",
+
+    "ExitMessage" : "Goodbuy!"
+}

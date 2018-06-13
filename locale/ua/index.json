@@ -1,0 +1,144 @@
+ {
+   "questionAreaDescription" : "Чим я можу допомогти? ('lang' -  зміна мови, 'main' - головне меню)",
+    "lost" : "Я загубив предмет",
+    "found" : "Я знайшов предмет",
+    "services" : "Сервіси та продукти",
+    "faq" : "Питання та відповіді",
+    "about" : "Про компанію",
+    "exit" : "Завершити",
+    "greetings" : "Привіт! Я MySefety Бот! Type 'lang' anytime to change language",
+    "continue" : "Добре. Продовжуємо?",
+    "Yes" : "Так",
+    "No" : "Ні",
+
+    "help_message" : "Наберіть: 'main' для переходу в головне меню; 'lang' для вибору мови; 'так' для продовження",
+    "ok_to_continue" : "Продовжити?",
+
+    "itemType" : "Що ви знайшли?",
+    "itemType_device" : "Пристрій",
+    "itemType_documents" : "Документ",
+    "itemType_keys" : "Ключі",
+    "itemType_animal" : "Тварину",
+    "itemType_bag" : "Сумку",
+    "itemType_other" : "Інше",
+
+    "otherItemType" : "Вкажіть, що ви знайшли",
+
+    "itemDescription" : "Опишіть знахідку. Приклад: телефон Samsung J7; сірий кіт; ноутбук HP",
+    "name" : "Вкажіть ваше ім'я",
+    "id" : "Який номер MySafety вказаний на наклейці або брелку? Формат номера YXXXXXX (Y - буква, X - цифра)",
+    "foundTime" : "Коли ви його знайшли? Вкажіть дату та час у форматі РРРР-ММ-ДД ГГ:ХХ",
+    
+    "documentName" : "Кому належить документ? Вкажіть повне ім'я",
+    "documentNumber" : "Вкажіть серійний номер документа?",
+    
+    "contactMethod" : "Як з вами зв'язатись?",
+    "contactMethodAlt" : "Вкажіть додатковий канал зв'язку",
+    "contact_phone" : "Телефон",
+    "contact_email" : "Електронна пошта",
+    "contact_mail" : "Звичайна пошта",
+    "contact_none" : "Ніяк",
+    
+    "phone" : "Який номер вашого телефона? Вкажіть номер у повному вигляді: +380XXYYYZZZZ",
+    "email" : "Яка адреса вашої електронної пошти?",
+    "mail" : "Яка ваша поштова адреса? Приклад: вул. Анрі Барбюса, 5-B, офіс 8, 03150, Київ, Україна",
+
+    "additioanInfo" : "Чи хочете ви надати додаткову інформацію?",
+
+    "rep_itemType" : "Знайдено: ",
+    "rep_itemDescription" : "Опис: ",
+    "rep_name" : "Ім'я: ",
+    "rep_id" : "ID наклейки: ",
+    "rep_foundTime" : "Час знаходки: ",
+    "rep_documentName" : "Ім'я на документі: ",
+    "rep_documentNumber" : "Номер документа: ",
+    "rep_contact_phone" : "Контактний телефон: ",
+    "rep_contact_email" : "Електронна пошта: ",
+    "rep_contact_mail" : "Поштова адреса: ",
+    "rep_altcontact_phone" : "Альтернативний телефон: ",
+    "rep_altcontact_email" : "Альтернативна електронна пошта: ",
+    "rep_altcontact_mail" : "Альтернативна поштова адреса: ",
+    "rep_additionalInfo" : "Додаткова інформация: ", 
+    
+    "confirm_found_email" : "Чи хочете ви надіслати заявку?",
+    "found_summary" : "Повна заявка:",
+    "confirmFoundData" : "Надіслати запит?",
+    "foundSubmitConfirm" : "Запит надіслано",
+    "foundSubmitError" : "Помилка під час відправки запиту. Заявка не відправлена! Спробуйте іще раз.",
+    "foundTryAgain" : "Почати діалог знахідки іще раз?",
+
+    "itemTypeLost" : "Що ви знайшли?",
+    "itemTypeLost_device" : "Прилад",
+    "itemTypeLost_documents" : "Документ",
+    "itemTypeLost_keys" : "Ключі",
+    "itemTypeLost_animal" : "Тварину",
+    "itemTypeLost_bag" : "Сумку",
+    "itemTypeLost_other" : "Інше",
+
+    "otherItemTypeLost" : "Вкажіть, що ви знайшли",
+    
+    "itemDescriptionLost" : "Опишіть втрачене. Приклад: телефон Samsung J7; сірий кіт; ноутбук HP",
+    "nameLost" : "Вкажіть ваше ім'я",
+    "idLost" : "Який номер MySafety вказаний на наклейці або брелку? Формат номера YXXXXXX (Y - буква, X - цифра)",
+    "foundTimeLost" : "Коли ви його загубили? Вкажіть дату та час у форматі РРРР-ММ-ДД ГГ:ХХ",
+    "cityLost" : "В якому неселеному пункті всталася втрата?",
+    "blockSIM" : "Чи хочете ви заблокувати SIM карту на вашому пристрої (якщо вона є)?",
+    "policeCaseConfirm" : "Чи подали ви заяву в поліцію?",
+    "policeCaseRequired" : "Ви маєте подати заяву до поліції.",
+    "phoneLost" : "Вкажіть контактний номер телефону?",
+    "phoneLostAlt" : "Вкажіть додатковий номер телефону (якщо є)?",
+    "additioanInfoLost" : "Чи хочете ви надати додаткову інформацію?",
+
+    "replost_itemType" : "Що ви загубили:",
+    "replost_itemDescription" : "Опис:",
+    "replost_name" : "Ім'я:",
+    "replost_id" : "ID наклейки:",
+    "replost_city" : "Місто:",
+    "replost_lostTime" : "Час втрати:",
+    "replost_blocksim" : "Блокувати SIM:",
+    "replost_police" : "Заява в поліцію:",
+    "replost_phone" : "Контактний телефон:",
+    "replost_phonealt" : "Додаткови телефон телефон:",
+    "replost_additionalInfo" : "Додаткова інформація:",
+
+    "lost_summary" : "Ось повна інформація:",
+    "confirmLostData" : "Надіслати запит?",
+    "submittingRequest" : "Надсилаю запит...",
+    "lostSubmitConfirm" : "Запит надіслано",
+    "lostSubmitError" : "Помилка під час відправки запиту. Заявка не відправлена!",
+    "lostTryAgain" : "Почати діалог втрати іще раз?",
+
+    "QNAdefaultMessage" : "Не можу знайти відповідь за вашим запитанням. Спробуйте переформулювати ваше питання.",
+    "QNAInitialQuestion" : "Що вас цікавить?",
+    "QNAMoreQuestions" : "Задати іще одне питання?",
+
+    "ProductPetTitle" : "Безпека тварин",
+    "ProductPetSubTitle" : "349 грн / 1 рік",
+    "ProductPetText" : "Поверніть домашнього улюбленця",
+    
+    "ProductBagTitle" : "Безпека багажу",
+    "ProductBagSubTitle" : "299 грн / 1 рік",
+    "ProductBagText" : "Надасть можливість швидко повернути багаж ",
+
+    "ProductPhoneTitle" : "Безпека смартфона",
+    "ProductPhoneSubTitle" : "Від 3,50 грн / неділя",
+    "ProductPhoneText" : "Надасть можливість оперативно заблокувати телефон і забезпечить швидке повернення в разі його втрати",
+
+    "ProductKeysTitle" : "Безпека ключів",
+    "ProductKeysSubTitle" : "199 грн/ 1 рік",
+    "ProductKeysText" : "Надасть можливість повернути втрачені ключі",
+
+    "ProductKidsTitle" : "Безпека дітей",
+    "ProductKidsSubTitle" : "Новинка",
+    "ProductKidsText" : "Надасть можливість знайти дитину, яка загубилась",
+
+    "ProductDocumentsTitle" : "Безпека документів",
+    "ProductDocumentsSubTitle" : "249 грн / 1рік",
+    "ProductDocumentsText" : "Надасть можливість повернути втрачені документи",
+
+    "ProductMoreinfo" : "Дізнатись більше",
+    "ProductBackMain" : "Повернутись до головного меню?",
+
+    "ExitMessage" : "До побачення!"
+
+}

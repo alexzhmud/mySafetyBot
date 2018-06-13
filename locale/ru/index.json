@@ -1,0 +1,136 @@
+{
+    "questionAreaDescription" : "Чем я могу вам помочь? ('lang' -  смена языка, 'main' - главное меню)",
+    "lost" : "Потерял",
+    "found" : "Нашел",
+    "services" : "Сервисы и Продукты",
+    "faq" : "Вопросы и Ответы",
+    "about" : "О компании",
+    "exit" : "Завершить",
+    "greetings" : "Привет! Я MySefety Бот! Type 'lang' anytime to change language",
+    "continue" : "Хорошо. Продолжаем?",
+    "Yes" : "Да",
+    "No" : "Нет",
+
+    "help_message" : "Наберите: 'mian' для перехода в главное меню; 'lang' для выбора языка; 'да' для продолжения",
+    "ok_to_continue" : "Продолжим?",
+
+
+    "itemType" : "Что вы нашли",
+    "itemType_device" : "Устройство",
+    "itemType_documents" : "Документ",
+    "itemType_keys" : "Ключи",
+    "itemType_animal" : "Питомца",
+    "itemType_bag" : "Сумку",
+    "itemType_other" : "Другое",
+
+    "otherItemType" : "Укажите, что вы нашли",
+
+    "itemDescription" : "Опишите находку. Пример: телефон Samsung J7; серый кот; ноутбук HP",
+    "name" : "Как вас зовут?",
+    "id" : "Какой номер MySafety указан на наклейке или брелке находки? Формат номера YXXXXXX (Y - буква, X - цифра)",
+    "foundTime" : "Когда вы его нашли? Укажите дату и время",
+    
+    "documentName" : "Кому пренадлежит документ? Укажите полное имя",
+    "documentNumber" : "Какой номер документа?",
+    
+    "contactMethod" : "Как мы можем с вами связаться?",
+    "contactMethodAlt" : "Укажите дополнительный канал связи",
+    "contact_phone" : "Телефон",
+    "contact_email" : "Электронная почта",
+    "contact_mail" : "Бумажная почта",
+    "contact_none" : "Никак",
+    
+    "phone" : "Какой ваш номер телефона? Укажите номер в полном виде: +380XXYYYZZZZ",
+    "email" : "Какой адрес вашей электронной почты?",
+    "mail" : "Какой ваш почтовый адрес? Пример: ул. Анри Барбюса, 5-B, офис 8, 03150, Киев, Украина",
+
+    "additioanInfo" : "Хотите ли вы сообщить нам дополнительную информацию?",
+
+    "rep_itemType" : "Найдено: ",
+    "rep_itemDescription" : "Описание: ",
+    "rep_name" : "Имя: ",
+    "rep_id" : "ID наклейки: ",
+    "rep_foundTime" : "Время находки: ",
+    "rep_documentName" : "Имя на документе: ",
+    "rep_documentNumber" : "Номер документа: ",
+    "rep_contact" : "Контакт: ",
+    "rep_altcontact" : "Альтернативный контакт: ",
+    "rep_additionalInfo" : "Дополнительная информация: ", 
+    
+    "confirm_found_email" : "Хотите ли вы отправить заявку?",
+    "found_summary" : "Полнная заявка:",
+    "found_end_dialog" : "Ваша заяака отправлена. Мы свяжемся с вами в ближайшее время.",
+
+    "itemTypeLost" : "Что вы нашли",
+    "itemTypeLost_device" : "Устройство",
+    "itemTypeLost_documents" : "Документ",
+    "itemTypeLost_keys" : "Ключи",
+    "itemTypeLost_animal" : "Питомца",
+    "itemTypeLost_bag" : "Сумку",
+    "itemTypeLost_other" : "Другое",
+
+    "otherItemTypeLost" : "Укажите, что вы нашли",
+
+    "itemDescriptionLost" : "Опишите потерю. Пример: телефон Samsung J7; серый кот; ноутбук HP",
+    "nameLost" : "Как вас зовут?",
+    "idLost" : "Какой номер MySafety указан на наклейке или брелке находки? Формат номера YXXXXXX (Y - буква, X - цифра)",
+    "cityLost" : "В каком городе произошла потеря",
+    "foundTimeLost" : "Когда вы его нашли? Укажите дату и время в формате ГГГГ-ММ-ДД ЧЧ:ММ",
+    "blockSIM" : "Хотите ли вы заблокировать SIM карту на вашем устройстве (если она есть)?",
+    "policeCaseConfirm" : "Подали ли вы уже заявление в полицию?",
+    "policeCaseRequired" : "Вы должны подать заявление в полицию.",
+    "phoneLost" : "Какой ваш контактный номер телефона?",
+    "phoneLostAlt" : "Укажите альтернативный номер телефона?",
+    "additioanInfoLost" : "Хотите ли вы сообщить нам дополнительную информацию?",
+
+    "replost_itemType" : "Что вы потеряли:",
+    "replost_itemDescription" : "Описание:",
+    "replost_name" : "Имя:",
+    "replost_id" : "ID наклейки:",
+    "replost_city" : "Город:",
+    "replost_lostTime" : "Время утери:",
+    "replost_blocksim" : "Заблокировать SIM:",
+    "replost_police" : "Заявление в полицию:",
+    "replost_phone" : "Контактный телефон:",
+    "replost_phonealt" : "Дополнительный телефон:",
+    "replost_additionalInfo" : "Дополнительная информация:",
+
+    "lost_summary" : "Вот полная информация:",
+    "confirmLostData" : "Отправить запрос?",
+    "submittingRequest" : "Отправляю запрос...",
+    "lostSubmitConfirm" : "Запрос отправлен",
+    "lostSubmitError" : "Ошибка во время отправки запроса. Заявке не отправлена!",
+    "lostTryAgain" : "Начать диалог потери еще раз?",
+
+    "QNAInitialQuestion" : "Что вас интересует?",
+    "QNAMoreQuestions" : "Задачть еще один вопрос?",
+
+    "ProductPetTitle" : "Безопастность животных",
+    "ProductPetSubTitle" : "349 грн / 1 год",
+    "ProductPetText" : "Верните домашнего любимца",
+    
+    "ProductBagTitle" : "Безопастность багажа",
+    "ProductBagSubTitle" : "299 грн / 1 год",
+    "ProductBagText" : "Дает возможность бысьро вернуть ваш багаж",
+
+    "ProductPhoneTitle" : "Безопстность смартфона",
+    "ProductPhoneSubTitle" : "От 3,50 грн / в неделю",
+    "ProductPhoneText" : "Дает возможность оперативно заблокировать телефон и обеспечить быстрый его возврат в случае его утраты",
+
+    "ProductKeysTitle" : "Безопастность ключей",
+    "ProductKeysSubTitle" : "199 грн/ 1 год",
+    "ProductKeysText" : "Дает возможность вернуть потерянные ключи",
+
+    "ProductKidsTitle" : "Безопастность детей",
+    "ProductKidsSubTitle" : "Новинка",
+    "ProductKidsText" : "Дает возможность найтие ребенка, который потерялся",
+
+    "ProductDocumentsTitle" : "Безопастность документов",
+    "ProductDocumentsSubTitle" : "249 грн / в год",
+    "ProductDocumentsText" : "Дает возможность вернуть потерянные документы",
+
+    "ProductMoreinfo" : "Узнать больше",
+    "ProductBackMain" : "Вернуться к главному меню?",
+
+    "ExitMessage" : "До свиданья!"
+}

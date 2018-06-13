@@ -1,0 +1,77 @@
+{
+    "contentType": "application/vnd.microsoft.card.adaptive",
+    "content": {
+        "type": "AdaptiveCard",
+
+        "body": [
+            {
+                "type": "ColumnSet",
+                "columns": [
+                    {
+                        "type": "Column",
+                        "width": 2,
+                        "items": [
+
+                            {
+                                "type": "TextBlock",
+                                "text": "Контакты",
+                                "weight": "bolder",
+                                "size": "extraLarge",
+                                "spacing": "none"
+                            },
+
+                            {
+                                "type": "TextBlock",
+                                "text": "Для защиты ваших вещей и близких людей вы можете с нами связаться по удобному для вас номеру телефона или с помощью электронного адреса.",
+                                "size": "small",
+                                "wrap": true
+                            },
+                            {
+                                "type": "TextBlock",
+                                "text": "0 800 508 112",
+                                "size": "small",
+                                "wrap": true
+                            },
+                            {
+                                "type": "TextBlock",
+                                "text": "+380 44 220 40 22",
+                                "size": "small",
+                                "wrap": true
+                            },
+                            {
+                                "type": "TextBlock",
+                                "text": "mysafety@mysafety.ua",
+                                "size": "small",
+                                "wrap": true
+                            },
+                            
+                            {
+                                "type": "TextBlock",
+                                "text": "ул. Анри Барбюса, 5-В, секция 2, офис 8, 03150, г. Киев ",
+                                "size": "small",
+                                "wrap": true
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Column",
+                        "width": 1,
+                        "items": [
+                            {
+                                "type": "Image",
+                                "url": "https://mysafetybot.blob.core.windows.net/img/mysafety_logo.png"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "type": "Action.OpenUrl",
+                "title": "Больше информации",
+                "url": "http://mysafety.ua/ua/contacts?s=CDC0197FBA9FBD309B35BFD378ECCF6496FAEC58"
+            }
+        ]
+    }
+}
