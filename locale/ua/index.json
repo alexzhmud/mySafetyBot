@@ -1,5 +1,5 @@
  {
-   "questionAreaDescription" : "Чим я можу допомогти? ('lang' -  зміна мови, 'main' - головне меню)",
+   "questionAreaDescription" : "Чим я можу допомогти? ('lang' -  зміна мови, 'main' - головне меню, 'exit' - завершити діалог)",
     "lost" : "Я загубив предмет",
     "found" : "Я знайшов предмет",
     "services" : "Сервіси та продукти",
@@ -67,7 +67,7 @@
     "foundSubmitError" : "Помилка під час відправки запиту. Заявка не відправлена! Спробуйте іще раз.",
     "foundTryAgain" : "Почати діалог знахідки іще раз?",
 
-    "itemTypeLost" : "Що ви знайшли?",
+    "itemTypeLost" : "Що ви загубили?",
     "itemTypeLost_device" : "Прилад",
     "itemTypeLost_documents" : "Документ",
     "itemTypeLost_keys" : "Ключі",
@@ -75,7 +75,7 @@
     "itemTypeLost_bag" : "Сумку",
     "itemTypeLost_other" : "Інше",
 
-    "otherItemTypeLost" : "Вкажіть, що ви знайшли",
+    "otherItemTypeLost" : "Вкажіть, що ви загубили",
     
     "itemDescriptionLost" : "Опишіть втрачене. Приклад: телефон Samsung J7; сірий кіт; ноутбук HP",
     "nameLost" : "Вкажіть ваше ім'я",
