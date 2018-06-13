@@ -31,7 +31,7 @@ bot.dialog('found', require('./dialogs/found-dialog.js'));
 bot.dialog('services', require('./dialogs/services-dialog.js'));
 bot.dialog('faq', require('./dialogs/faq-dialog.js'));
 bot.dialog('about', require('./dialogs/about-dialog.js'));
-bot.dialog('exit', require('./dialogs/exit-dialog.js'));
+bot.dialog('exit', require('./dialogs/exit-dialog.js')).triggerAction({ matches: /^exit$/i});
 
 // QNA Dialogs definitions
 var ua_recognizer = new cognitiveservices.QnAMakerRecognizer({
