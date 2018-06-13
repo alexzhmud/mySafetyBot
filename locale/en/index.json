@@ -71,7 +71,7 @@
     "itemTypeLost_bag" : "Bag",
     "itemTypeLost_other" : "Other",
 
-    "otherItemTypeLost" : "Could you specify what other thing have you found?",
+    "otherItemTypeLost" : "Could you specify what other thing have you lost?",
 
     "itemDescriptionLost" : "Describe it. Exmapple: Samsung phone J7; gray cat; HP notebook",
     "nameLost" : "What is your name?",
