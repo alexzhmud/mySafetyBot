@@ -9,18 +9,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vityabool/mySafetyBot.git"
+    "url": "git+https://github.com/alexzhmud/mySafetyBot.git"
   },
   "keywords": [
     "bot",
     "mysafety"
   ],
-  "author": "Viktor Tsykunov",
+  "author": "Olexandr Zhmud",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/vityabool/mySafetyBot/issues"
+    "url": "https://github.com/alexzhmud/mySafetyBot/issues"
   },
-  "homepage": "https://github.com/vityabool/mySafetyBot#readme",
+  "homepage": "https://github.com/alexzhmud/mySafetyBot#readme",
   "dependencies": {
     "adaptivecards": "^1.0.0",
     "azure-storage": "^2.8.1",
