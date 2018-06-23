@@ -63,8 +63,8 @@ bot.dialog('exit', require('./dialogs/exit-dialog.js')).triggerAction({ matches:
 
 var ru_recognizer = new cognitiveservices.QnAMakerRecognizer({
 	knowledgeBaseId: process.env.QNA_RU_KBID, 
-	subscriptionKey: process.env.QNA_RU_KEY,
-  	endpointHostName: process.env.QNA_HOST_NAME
+	subscriptionKey: process.env.QNA_RU_KEY
+ // 	endpointHostName: process.env.QNA_HOST_NAME
 });
 
 var ru_qnadialog = new cognitiveservices.QnAMakerDialog({ 
