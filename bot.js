@@ -48,18 +48,18 @@ bot.dialog('about', require('./dialogs/about-dialog.js'));
 bot.dialog('exit', require('./dialogs/exit-dialog.js')).triggerAction({ matches: /^exit$/i});
 
 // QNA Dialogs definitions
-var ua_recognizer = new cognitiveservices.QnAMakerRecognizer({
-	knowledgeBaseId: process.env.QNA_UA_KBID, 
-	subscriptionKey: process.env.QNA_UA_KEY
+//var ua_recognizer = new cognitiveservices.QnAMakerRecognizer({
+//	knowledgeBaseId: process.env.QNA_UA_KBID, 
+//	subscriptionKey: process.env.QNA_UA_KEY
    // 	endpointHostName: process.env.QNA_HOST_NAME
-});
+//});
 
-var ua_qnadialog = new cognitiveservices.QnAMakerDialog({ 
-	recognizers: [ua_recognizer],
-	defaultMessage: 'Не можу знайти відповідь за вашим запитанням. Спробуйте переформулювати ваше питання.',
-    	qnaThreshold: process.env.QNA_THRESHOLD});
+//var ua_qnadialog = new cognitiveservices.QnAMakerDialog({ 
+//	recognizers: [ua_recognizer],
+//	defaultMessage: 'Не можу знайти відповідь за вашим запитанням. Спробуйте переформулювати ваше питання.',
+//    	qnaThreshold: process.env.QNA_THRESHOLD});
 
-bot.dialog('ua_qna', ua_qnadialog);
+// bot.dialog('ua_qna', ua_qnadialog);
 
 var ru_recognizer = new cognitiveservices.QnAMakerRecognizer({
 	knowledgeBaseId: process.env.QNA_RU_KBID, 
