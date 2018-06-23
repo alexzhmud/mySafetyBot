@@ -3,6 +3,17 @@ var restify = require('restify');
 var h = require('./helper.js');
 require('dotenv-extended').load();
 var cognitiveservices = require('botbuilder-cognitiveservices');
+var viber = require('botbuilder-viber');
+var express = require('express');
+var app = express();
+
+var viberOptions = {
+    Token: process.env.VIBER_TOKEN || "47e49dd4afa7d7c2-e43b057046313cb9-d02776ffc8c64040",
+    Name: 'mySafety',
+    AvatarUrl: 'http://url.to/pngfile'
+};
+
+var viberChannel = new viber.ViberEnabledConnector(viberOptions);
 
 // Create chat connector for communicating with the Bot Framework Service
 var connector = new builder.ChatConnector({
@@ -16,6 +27,9 @@ var bot = new builder.UniversalBot(connector, {
     },
     storage: new builder.MemoryBotStorage()
 });
+
+bot.connector(viber.ViberChannelId, viberChannel);
+app.use('https://mysafetybot.azurewebsites.net/viber/webhook', viberChannel.listen());
 
 bot.dialog('/', [
     function (session) {
