@@ -234,6 +234,7 @@ module.exports = [
                 itemDescription: entGen.String(data.itemDescription),
                 name: entGen.String(data.name),
                 id: entGen.String(data.id),
+                documentName: entGen.String(data.documentName),
                 foundTime: entGen.DateTime(data.foundTime),
                 documentNumber: entGen.String(data.documentNumber),
                 phone: entGen.String(data.phone),
