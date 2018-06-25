@@ -194,6 +194,7 @@ module.exports = [
             h.text(session,"rep_itemDescription") + ' ' + data.itemDescription + '\n\n' +
             h.text(session,"rep_name") + ' ' + data.name + '\n\n' +
             h.text(session,"rep_id") + ' ' + data.id + '\n\n' +
+            h.text(session,"rep_documentName") + data.documentName + '\n\n' +
             h.text(session,"rep_foundTime") + ' ' + data.foundTime.toLocaleDateString() + " " + data.foundTime.toLocaleTimeString() + '\n\n' +
             h.text(session,"rep_documentNumber") + ' ' + data.documentNumber + '\n\n' +
             contact + '\n\n' +
