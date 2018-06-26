@@ -292,10 +292,10 @@ module.exports = [
     
     function (session, result) {
         if (result.response) {
-       //     session.replaceDialog('found');
-        //} 
-       // else {
             session.replaceDialog('mainmenu');
+        } 
+        else {
+            session.replaceDialog('exit');
         }
     }
 
