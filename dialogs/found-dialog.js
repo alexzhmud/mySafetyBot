@@ -274,7 +274,7 @@ module.exports = [
                       console.log('Email sent: ' + info.response);
                       session.send(h.text(session,"foundSubmitConfirm"));
                       builder.Prompts.confirm(session, "foundContinue");
-                      session.replaceDialog('mainmenu');
+                     // session.replaceDialog('mainmenu');
                     }
                   }); 
                 } 
@@ -292,9 +292,9 @@ module.exports = [
     
     function (session, result) {
         if (result.response) {
-            session.replaceDialog('found');
-        } 
-        else {
+       //     session.replaceDialog('found');
+        //} 
+       // else {
             session.replaceDialog('mainmenu');
         }
     }
