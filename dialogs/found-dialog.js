@@ -273,6 +273,7 @@ module.exports = [
                     } else {
                       console.log('Email sent: ' + info.response);
                       session.send(h.text(session,"foundSubmitConfirm"));
+                      builder.Prompts.confirm(session, "foundContinue");
                       session.replaceDialog('mainmenu');
                     }
                   }); 
