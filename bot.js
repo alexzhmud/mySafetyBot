@@ -48,18 +48,18 @@ bot.dialog('about', require('./dialogs/about-dialog.js'));
 bot.dialog('exit', require('./dialogs/exit-dialog.js')).triggerAction({ matches: /^exit$/i});
 
 // QNA Dialogs definitions
-//var ua_recognizer = new cognitiveservices.QnAMakerRecognizer({
-//	knowledgeBaseId: process.env.QNA_UA_KBID, 
-//	subscriptionKey: process.env.QNA_UA_KEY
-   // 	endpointHostName: process.env.QNA_HOST_NAME
-//});
+var ua_recognizer = new cognitiveservices.QnAMakerRecognizer({
+	knowledgeBaseId: process.env.QNA_UA_KBID, 
+	subscriptionKey: process.env.QNA_UA_KEY,
+   	endpointHostName: process.env.QNA_HOST_NAME
+});
 
-//var ua_qnadialog = new cognitiveservices.QnAMakerDialog({ 
-//	recognizers: [ua_recognizer],
-//	defaultMessage: 'Не можу знайти відповідь за вашим запитанням. Спробуйте переформулювати ваше питання.',
-//    	qnaThreshold: process.env.QNA_THRESHOLD});
+var ua_qnadialog = new cognitiveservices.QnAMakerDialog({ 
+	recognizers: [ua_recognizer],
+	defaultMessage: 'Не можу знайти відповідь за вашим запитанням. Спробуйте переформулювати ваше питання.',
+    	qnaThreshold: process.env.QNA_THRESHOLD});
 
-// bot.dialog('ua_qna', ua_qnadialog);
+ bot.dialog('ua_qna', ua_qnadialog);
 
 var ru_recognizer = new cognitiveservices.QnAMakerRecognizer({
 	knowledgeBaseId: process.env.QNA_RU_KBID, 
@@ -74,18 +74,18 @@ var ru_qnadialog = new cognitiveservices.QnAMakerDialog({
 
 bot.dialog('ru_qna', ru_qnadialog);
 
-var en_recognizer = new cognitiveservices.QnAMakerRecognizer({
-	knowledgeBaseId: process.env.QNA_EN_KBID, 
-	subscriptionKey: process.env.QNA_EN_KEY
+//var en_recognizer = new cognitiveservices.QnAMakerRecognizer({
+//	knowledgeBaseId: process.env.QNA_EN_KBID, 
+//	subscriptionKey: process.env.QNA_EN_KEY
     //	endpointHostName: process.env.QNA_HOST_NAME
-});
+//});
 
-var en_qnadialog = new cognitiveservices.QnAMakerDialog({ 
-	recognizers: [en_recognizer],
-	defaultMessage: 'I cannot find mutch for your question. Try to change it',
-   	qnaThreshold: process.env.QNA_THRESHOLD});
+//var en_qnadialog = new cognitiveservices.QnAMakerDialog({ 
+//	recognizers: [en_recognizer],
+//	defaultMessage: 'I cannot find mutch for your question. Try to change it',
+  // 	qnaThreshold: process.env.QNA_THRESHOLD});
 
-bot.dialog('en_qna', en_qnadialog);
+//bot.dialog('en_qna', en_qnadialog);
 
 // Support dialogs
 bot.dialog('localePicker', require('./dialogs/locale-dialog.js')).triggerAction({ matches: /^lang$/i });
