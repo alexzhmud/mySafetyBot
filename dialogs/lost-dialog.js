@@ -235,10 +235,10 @@ module.exports =
     
     function (session, result) {
         if (result.responce) {
-            session.replaceDialog('mainmenu');
+            session.replaceDialog('exit');
         } 
         else {
-            session.replaceDialog('exit');
+            session.replaceDialog('mainmenu');
         }
     }
 ]
