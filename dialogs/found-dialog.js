@@ -286,7 +286,7 @@ module.exports = [
             });
         
         } else {
-            builder.Prompts.confirm(session, "foundTryAgain");
+            builder.Prompts.confirm(session, "foundContinue");
         }
     },
     
