@@ -60,6 +60,7 @@
     "confirm_found_email" : "Хотите ли вы отправить заявку?",
     "found_summary" : "Полнная заявка:",
     "found_end_dialog" : "Ваша заяака отправлена. Мы свяжемся с вами в ближайшее время.",
+    "foundContinue" : "Могу ли я еще чем-то вам помочь?",
 
     "itemTypeLost" : "Что вы потеряли",
     "itemTypeLost_device" : "Устройство",
