@@ -216,8 +216,8 @@ module.exports =
                     } else {
                       console.log('Email sent: ' + info.response);
                       session.send(h.text(session,"lostSubmitConfirm"));
-
-                      session.replaceDialog('mainmenu');
+                      builder.Prompts.confirm(session, "foundContinue");
+                     // session.replaceDialog('mainmenu');
                     }
                   }); 
                 } 
@@ -235,10 +235,10 @@ module.exports =
     
     function (session, result) {
         if (result.responce) {
-            session.replaceDialog('lost');
+            session.replaceDialog('mainmenu');
         } 
         else {
-            session.replaceDialog('mainmenu');
+            session.replaceDialog('exit');
         }
     }
 ]
