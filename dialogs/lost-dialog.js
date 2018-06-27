@@ -1,4 +1,3 @@
-
 var builder = require('botbuilder');
 var h = require('../helper.js');
 var data = Object.create(require('../models/lost.js'));
@@ -66,6 +65,24 @@ module.exports =
 
     function (session, result) {
         data.name = result.response;
+        if (data.itemType.document) 
+            builder.Prompts.text(session, "documentName");
+        else
+            next();
+    },
+
+    function (session, result, next) {
+        if (data.itemType.document) {
+            data.documentName = result.response;
+            builder.Prompts.text(session, "documentNumber");
+        } else {
+            data.lostTime = builder.EntityRecognizer.resolveTime([result.response]);
+            next();
+        }
+    },
+
+    function (session, result) {
+        data.documentNumber = result.response;
         builder.Prompts.text(session, "cityLost");
     },
 
@@ -139,6 +156,8 @@ module.exports =
             h.text(session,"replost_itemType") + ' ' + devType + '\n\n' +
             h.text(session,"replost_itemDescription") + ' ' + data.itemDescription + '\n\n' +
             h.text(session,"replost_name") + ' ' + data.name + '\n\n' +
+            h.text(session,"rep_documentName") + ' ' + data.documentName + '\n\n' +
+            h.text(session,"rep_documentNumber") + ' ' + data.documentNumber + '\n\n' +
             h.text(session,"replost_id") + ' ' + data.id + '\n\n' +
             h.text(session,"replost_city") + ' ' + data.city + '\n\n' +
             h.text(session,"replost_lostTime") + ' ' + data.lostTime.toLocaleDateString() + " " + data.lostTime.toLocaleTimeString() + '\n\n' +
@@ -179,6 +198,8 @@ module.exports =
                 itemType: entGen.String(devType),
                 itemDescription: entGen.String(data.itemDescription),
                 name: entGen.String(data.name),
+                documentName: entGen.String(data.documentName),
+                documentNumber: entGen.String(data.documentNumber),
                 id: entGen.String(data.id),
                 city: entGen.String(data.city),
                 lostTime: entGen.DateTime(data.lostTime),
