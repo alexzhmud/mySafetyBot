@@ -233,12 +233,12 @@ module.exports =
         }
     },
     
-    function (session, result) {
-        if (result.responce) {
-            session.replaceDialog('exit');
+     function (session, result) {
+        if (result.response) {
+            session.replaceDialog('mainmenu');
         } 
         else {
-            session.replaceDialog('mainmenu');
+            session.replaceDialog('exit');
         }
     }
 ]
