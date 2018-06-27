@@ -229,7 +229,7 @@ module.exports =
             });
         
         } else {
-            builder.Prompts.confirm(session, "lostTryAgain");
+            builder.Prompts.confirm(session, "foundContinue");
         }
     },
     
