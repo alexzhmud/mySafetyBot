@@ -29,7 +29,7 @@ var bot = new builder.UniversalBot(connector, {
 });
 
 bot.connector(viber.ViberChannelId, viberChannel);
-app.use('https://mysafetybot.azurewebsites.net/api/messages', viberChannel.listen());
+app.use('/viber/webhook', viberChannel.listen());
 
 bot.dialog('/', [
     function (session) {
