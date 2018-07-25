@@ -8,7 +8,7 @@ var express = require('express');
 var app = express();
 
 var viberOptions = {
-    Token: process.env.VIBER_TOKEN || "47e49dd4afa7d7c2-e43b057046313cb9-d02776ffc8c64040",
+    Token: process.env.VIBER_TOKEN || '47e49dd4afa7d7c2-e43b057046313cb9-d02776ffc8c64040',
     Name: 'mySafety',
     AvatarUrl: 'https://raw.githubusercontent.com/devrelv/drop/master/151-icon.png'
 };
