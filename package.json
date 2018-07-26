@@ -26,7 +26,7 @@
     "azure-storage": "^2.8.1",
     "botbuilder": "^3.14.0",
     "botbuilder-cognitiveservices": "^1.2.0",
-    "botbuilder-viber": "0.0.3",
+    "botbuilder-viber": "0.0.2",
     "dotenv-extended": "^2.0.1",
     "guid": "0.0.12",
     "nodemailer": "^4.6.2",
