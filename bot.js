@@ -8,7 +8,7 @@ var express = require('express');
 var app = express();
 
 var viberOptions = {
-    Token: process.env.VIBER_TOKEN || '47e49dd4afa7d7c2-e43b057046313cb9-d02776ffc8c64040',
+    Token: process.env.VIBER_TOKEN,
     Name: 'mySafety',
     AvatarUrl: 'https://raw.githubusercontent.com/alexzhmud/mySafetyBot/master/mySafety_viber.png'
 };
@@ -27,6 +27,9 @@ var bot = new builder.UniversalBot(connector, {
     },
     storage: new builder.MemoryBotStorage()
 });
+
+bot.connector(viber.ViberChannelId, viberChannel);
+app.use('/viber/webhook', viberChannel.listen());
 
 bot.dialog('/', [
     function (session) {
@@ -122,5 +125,3 @@ server.listen(process.env.port || process.env.PORT || 3388, function () {
    console.log('%s listening to %s', server.name, server.url); 
 });
 server.post('/api/messages', connector.listen());
-bot.connector(viber.ViberChannelId, viberChannel);
-app.use('/viber/webhook', viberChannel.listen());
