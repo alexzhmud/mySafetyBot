@@ -116,12 +116,11 @@ bot.on('conversationUpdate', function (message) {
         });
     }
 });
-
-bot.connector(viber.ViberChannelId, viberChannel);
-app.use('/viber/webhook', viberChannel.listen());
 // Setup Restify Server
 var server = restify.createServer();
 server.listen(process.env.port || process.env.PORT || 3388, function () {
    console.log('%s listening to %s', server.name, server.url); 
 });
 server.post('/api/messages', connector.listen());
+bot.connector(viber.ViberChannelId, viberChannel);
+app.use('/viber/webhook', viberChannel.listen());
